@@ -70,5 +70,5 @@ Jimp.read(curbg, (err, ava) => {
 }
         }
 module.exports.help = {
-  name:"متجر"
+  name:"store"
 }
