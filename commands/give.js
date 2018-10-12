@@ -5,7 +5,7 @@ const fs = require("fs");
 module.exports.run = async (bot, message, args, sql) => {
 
     message.delete();
-    if(!message.guild.member(message.author).hasPermission("MANAGE_MESSAGES"))return message.reply("رووح العب بعيد يا بابا!").then(msg => {msg.delete(5000)});
+if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
     let pUser = message.mentions.users.first();
     if(!pUser)return message.channel.send("الرجاء تحديد الشخص المستحق للوسم").then(msg => {msg.delete(5000)});
     if(message.mentions.users.first() < 1) return message.channel.send("الرجاء تحديد الشخص المستحق للوسم").then(msg => {msg.delete(5000)});
