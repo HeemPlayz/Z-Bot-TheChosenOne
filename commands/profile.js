@@ -435,5 +435,5 @@ talkedRecently.add(message.author.id);
     
         }
 module.exports.help = {
-  name:"بروفايل"
+  name:"profile"
 }
