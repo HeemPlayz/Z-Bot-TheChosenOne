@@ -6,9 +6,9 @@ module.exports.run = async (bot, message, args) => {
     let helpembed1 = new Discord.RichEmbed()
     .setAuthor(bot.user.username, bot.user.displayAvatarURL)
     .setTitle("~ Dragon bot 🐲 ~")
-    .setDescription(`0 0 0 0 0 0`+` @user`+` وسام`+`#`)
+    .setDescription(`0 0 0 0 0 0`+` @user`+` وسام`+`d!`)
     .setColor("RANDOM")
-    .addField("**  إستبدل أحد الأصفار برقم الوسام مثال **", `0 0 0 0 3 1`+` @user`+` وسام`+`#`)
+    .addField("**  إستبدل أحد الأصفار برقم الوسام مثال **", `0 0 0 0 3 1`+` @user`+` وسام`+`d!`)
     .addField("● [مربع فارغ]", '0')
     .addField("● [علم السعودية]", '1')
     .addField("● [علم الكويت]", '2')
