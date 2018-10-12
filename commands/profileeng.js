@@ -448,5 +448,5 @@ talkedRecently.add(message.author.id);
     
         }
 module.exports.help = {
-  name:"profile"
+  name:"prof"
 }
