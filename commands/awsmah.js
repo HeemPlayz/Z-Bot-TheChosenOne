@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
   if(!message.guild.member(message.author).hasPermission("MANAGE_MESSAGES")) return message.reply("رووح العب بعيد يا بابا!");
     let helpembed1 = new Discord.RichEmbed()
     .setAuthor(bot.user.username, bot.user.displayAvatarURL)
-    .setTitle("~ أوامر بوت البروفايل ~")
+    .setTitle("~ Plexbot ~")
     .setDescription(`0 0 0 0 0 0`+` @user`+` وسام`+`#`)
     .setColor("RANDOM")
     .addField("**  إستبدل أحد الأصفار برقم الوسام مثال **", `0 0 0 0 3 1`+` @user`+` وسام`+`#`)
