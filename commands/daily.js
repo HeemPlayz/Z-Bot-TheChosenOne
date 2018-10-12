@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args, sql) => {
   let uCoins = rows.coins;
 
   message.channel.send(`**${message.author.username} you collect your \`200\` :dollar: daily pounds**`)
-  rows[message.author.id].uCoins+= 200;
+  uCoins += 200;
 
 
 }
