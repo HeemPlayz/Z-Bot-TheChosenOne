@@ -252,4 +252,3 @@ talkedRecently.add(message.author.id);
 module.exports.help = {
   name:"عني"
 }
-© 2018 GitHub, Inc.
