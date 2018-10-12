@@ -20,5 +20,5 @@ module.exports.run = async (bot, message, args, sql) => {
 }
 
 module.exports.help = {
-  name:"وسام"
+  name:"wissam"
 }
