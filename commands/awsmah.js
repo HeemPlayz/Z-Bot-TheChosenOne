@@ -24,5 +24,5 @@ module.exports.run = async (bot, message, args) => {
     message.author.send(helpembed1);
 }
 module.exports.help = {
-  name:"backgrounds"
+  name:"اوسمه"
 }
