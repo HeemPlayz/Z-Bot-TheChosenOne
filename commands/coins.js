@@ -16,5 +16,5 @@ module.exports.run = async (bot, message, args, sql) => {
 }
 
 module.exports.help = {
-  name: "رصيدي"
+  name: "credits"
 }
