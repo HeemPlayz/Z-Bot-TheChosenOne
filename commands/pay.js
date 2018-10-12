@@ -41,5 +41,5 @@ if(isNaN(amount)) return message.reply("غلط");
 }
 
 module.exports.help = {
-  name: "تحويل"
+  name: "transfer"
 }
