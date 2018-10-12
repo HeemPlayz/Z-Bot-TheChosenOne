@@ -79,5 +79,5 @@ let LUser;
     
   }
 module.exports.help = {
-name:"سمعه"
+name:"rep"
 }
