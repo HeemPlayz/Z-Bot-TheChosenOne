@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args, sql) => {
 let LUser;
   message.delete(5000);
   let pUser = message.mentions.users.first();
-  if(message.mentions.users.size < 1) return message.channel.send("`#سمعة @user#123`").then(msg => {msg.delete(5000)});
+  if(message.mentions.users.size < 1) return message.channel.send("`d!rep @OrochiX`").then(msg => {msg.delete(5000)});
   {
   let rows = sql.prepare(`SELECT * FROM profile WHERE UserID = '${pUser.id}'`).get()
   
